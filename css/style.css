@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(45, 20, 48);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.spinner{
+    border: 8px solid rgba(0, 0, 0, .1);
+    height: 60px;
+    width: 60px;
+    border-left-color: #000000;
+    border-radius: 50%;
+    animation: rotacao 1s linear infinite;
+}
+
+@keyframes rotacao{
+    to {transform: rotate(360deg);}
+}
